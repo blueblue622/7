@@ -4,7 +4,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f7f7f7;
+    background-color: #g7f7f7;
     overflow: hidden; /* 隱藏捲軸 */
     font-family: sans-serif;
 }
@@ -36,7 +36,7 @@ body {
 
 @keyframes jump {
     0%   { bottom: 20px; }
-    50%  { bottom: 80px; } /* 跳躍高度 */
+    50%  { bottom: 200px; } /* 跳躍高度 */
     100% { bottom: 20px; }
 }
 
